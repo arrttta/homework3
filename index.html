@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headlines">
+            <h1 class="head1">FIZZBUZZ GENERATOR</h1>
+            <h2>This generator lets you select a range of values you want to play with. 
+                It gives you a fizz, a buzz or a fizzbuzz if a value divides with no remainder with your fizz and buzz numbers.</h2>
+            <h3>Try it. You can use the default values (numbers 1-100, Fizz=3, Buzz=5) or select your own.</h3>
+        </div>
+        <div class="menu">
+            <button class="button" type="button" id="start"><strong>START FIZZBUZZING WITH DEFAULT VALUES</strong></button>
+            <button class="button" type="button" id="reset"><strong>CLEAR YOUR GENERATED FIZZBUZZ</strong></button>
+            <p id="mininsert">Please enter your minimum number!</p>
+            <input class="input" type="number" name="numberMin" id="numberMin" value="1">
+            <p id="maxinsert">Please enter your maximum number!</p>
+            <input class="input" type="number" name="numberMin" id="numberMax" value="100">
+            <p id="fizznumberlabel">How much do you want for a fizz?</p>
+            <input class="input" type="number" name="fizzNumber" id="fizzNumber" value="3">
+            <p id="buzznumberlabel">How much do you want for a buzz?</p>
+            <input class="input" type="number" name="buzzNumber" id="buzzNumber" value="5">
+            <button class="button" type="button" id="custom"><strong>START WITH YOUR CUSTOM VALUES</strong></button>
+        </div>
+    </header>
+    <main>
+        <div id="fb" class="buttongrid">
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
